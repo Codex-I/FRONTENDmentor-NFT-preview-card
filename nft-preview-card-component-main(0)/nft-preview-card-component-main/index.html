@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(217, 54%, 11%);
+      text-align: center;
+      
+
+    }
+    .main {
+      background-color: hsl(216, 50%, 16%);
+    width: 25%;
+    height: 420px;
+    margin: 100px auto 100px auto;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    border-radius: 12px;
+    
+   
+      
+    }
+    
+    .eq {
+      width: 275px;
+    height: 275px;
+    border-radius: 10px;
+    margin: 10px auto auto 2px;
+    display: inline
+
+    }
+    .text{
+      margin: 10px auto;
+    width: 95%;
+    font-family: Arial Rounded MT;
+    font-weight: 800;
+    color:  hsl(0, 0%, 100%);
+    text-align: left;
+    margin-left: 25px;
+    
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      width: 86%;
+      margin: 10px auto ;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Arial Rounded MT', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: hsl(215, 51%, 70%);
+      text-align: left;
+      margin-left: 22px;
+      
+    }
+
+    .eh{
+      
+      color: hsl(178, 100%, 50%);
+      position: relative;
+      right: 40px;
+      top: 15px;
+      display: inline;
+      text-indent: 1cm;
+      font-weight: 500;
+    }
+    .time {
+      display: inline;
+      position: relative;
+      left: 15px;
+      top: 15px;
+      font-weight: 600;
+    }
+    .line {
+      border: solid hsl(215, 32%, 27%) 2px;
+      border-bottom: none;
+      width: 84%;
+      margin-top: 30px;
+      margin-bottom: 0;
+     
+    }
+    .jules {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .img {
+      width: 10%;
+      border: solid white 1px;
+      border-radius: 15px;
+    }
+    name{
+      color: hsl(0, 0%, 100%);
+      font-weight: 400;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+</head>
+<body>
+  
+  <div class="main">
+    <div>
+      <img src="images/image-equilibrium.jpg" alt="Equilibrum coin" class="eq">
+    </div>
+    <h3 class="text"> Equilibrum #3429</h3>
+    <p> Our Equilibrum collection promotes balance and calm.</p>
+    <p class="eh"><img src="images/icon-ethereum.svg" alt="etheruem"> <data value="0.041">0.041 ETH</data></p>
+    <p class="time"><img src="images/icon-clock.svg" alt="clock"> 3 days left</p>
+    <hr class="line">
+    <p class="jules"><img src="images/image-avatar.png" class="img" alt="Jules Wyvern"> Creation of <name>Jules Wyvern</name> </p>
+    
+    
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Procodx">Codex</a>.
+  </div>
+</body>
+</html>
